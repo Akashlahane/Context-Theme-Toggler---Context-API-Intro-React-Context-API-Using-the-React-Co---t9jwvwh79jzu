@@ -24,12 +24,12 @@ const LocalThemedBox = () => {
       className={`bg-${localTheme}`}
     >
       <p className={`txt-${localTheme}`} id="local-themed-text-container">
-        Hii
+        Hiiiii
       </p>
 
       <button
         id="local-theme-toggler"
-        className={`btn btn-${localTheme} txt-${localTheme}`}
+        className={`btn btn-${localTheme}`}
         onClick={() =>
           setLocalTheme((oldTheme) => (oldTheme === "light" ? "dark" : "light"))
         }
