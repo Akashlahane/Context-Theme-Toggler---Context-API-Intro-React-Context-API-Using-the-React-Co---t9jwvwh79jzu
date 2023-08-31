@@ -23,7 +23,7 @@ const LocalThemedBox = () => {
       id="local-themed-box"
       className={`bg-${localTheme}`}
     >
-      <p className={`txt-${localTheme}`} id="local-theme-text-container">
+      <p className={`txt-${localTheme}`} id="local-themed-text-container">
         Hii
       </p>
 
